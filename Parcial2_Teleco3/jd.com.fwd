@@ -1,0 +1,13 @@
+$ORIGIN jd.com.
+$TTL 84600
+@	IN SOA	jd.com. root@jd.com. (
+					20210931	; serial
+					1h	; refresh
+					2h	; retry
+					1w	; expire
+					1h )	; minimum
+@		IN	NS	servidor.
+servidor	IN	A	192.168.100.4
+www		IN	CNAME	servidor
+servidor2	IN	A	192.168.100.2
+firewall	IN	A	192.168.1.50

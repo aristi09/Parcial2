@@ -1,0 +1,12 @@
+$ORIGIN 100.168.192.in-addr.arpa.
+$TTL 84600
+@	IN SOA	jd.com. root@jd.com. (
+					20210931	; serial
+					1h	; refresh
+					2h	; retry
+					1w	; expire
+					1h )	; minimum
+@	IN	NS	servidor.
+4	IN	PTR	servidor.jd.com.
+2	IN	PTR	servidor2.jd.com.
+50	IN	PTR	firewall.jd.com.
